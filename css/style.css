@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--color-gris: #777;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-blanco:#fff;
+}
+
+body{
+	font-family: "Catamaran", sans-serif;
+	color: var(--color-gris);
+}
+
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+.btn {
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.title, .subtitle{
+	font-weight: bold;
+}
+
+.subtitle{
+	color: var(--color-negro);
+	padding: 15px 0;
+}
+
+h1{
+	font-size: 80px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+#hero-slides {
+	padding-bottom: 10px;
+	margin: 0 70px;
+}
+
+#intro{
+	border-bottom: solid var(--color-gris) thin;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 70px;
+}
+
+#services{
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 70px;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 80px 0;
+	color: var(--color-blanco);
+	margin: 10px 70px;
+}
+
+#clients{
+	border-top: solid var(--color-gris) thin;
+	padding: 40px 0;
+	margin: 0 70px;
+}
